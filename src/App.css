@@ -1,0 +1,55 @@
+.header{
+    background-color: rgb(38, 48, 65);
+    padding: 5px;
+    
+}
+.headerOpt{
+    display: flex;
+}
+.logo{
+    flex-grow: 1;
+    padding-top: 6px;
+}
+.navoptions{
+    font-weight: 300;
+    font-size: 17px;
+    color:#bababa;
+    border-bottom: 1px solid #404040;
+    padding:13px;
+}
+.navoptions a{
+    text-decoration: none;
+    color:rgb(235, 229, 229);
+    margin-right: 10px;
+}
+.footer{
+    display: flex;
+    background-color: rgb(38, 48, 65);
+    padding: 7px;
+}
+.footer div{
+    flex-grow: 1;
+    font-size: 15px;
+    color: #c4bfbf; 
+}
+.slideItem{
+    position: relative;
+}
+.slideImg{
+    height:300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.slideLink{
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    font-size: 30px;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
